@@ -1,8 +1,9 @@
 <?php
-namespace mvc\Core;
+namespace Mvc\Core;
 
-    class Model
-    {
-
+class Model
+{
+    function getProperties(){
+        return get_object_vars($this);
     }
-?>
+}

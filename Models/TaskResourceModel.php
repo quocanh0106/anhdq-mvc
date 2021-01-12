@@ -4,7 +4,7 @@
 namespace mvc\Models;
 
 use mvc\Core\ResourceModel;
-use mvc\Models\TasksModel;
+use mvc\Models\TaskModel;
 
 class TaskResourceModel extends ResourceModel
 {

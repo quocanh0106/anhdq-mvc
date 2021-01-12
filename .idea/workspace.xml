@@ -1,32 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c93ac342-66cb-49f3-8d9a-59a21e512379" name="Default" comment="" />
+    <list default="true" id="c93ac342-66cb-49f3-8d9a-59a21e512379" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MVC_todo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MVC_todo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/TasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/TasksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/ResourceModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ResourceModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/TaskModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TaskModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/TaskRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TaskRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/TaskResourceModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TaskResourceModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Tasks/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Tasks/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Tasks/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Tasks/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <phar pharPath="C:\composer\composer.phar" interpreterId="e23960d8-b3a1-480e-abca-65d3cd6aa699" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="3eb51166-e923-487c-a960-0f7a781c8680" name="localhost" />
     </servers>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1mx0YZaKm2rFasP5IAf6wHNV8Sd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -52,7 +82,9 @@
       <workItem from="1513111791162" duration="736000" />
       <workItem from="1513152695175" duration="194000" />
       <workItem from="1513326896814" duration="43000" />
-      <workItem from="1610419986189" duration="443000" />
+      <workItem from="1610419986189" duration="2284000" />
+      <workItem from="1610422367411" duration="2711000" />
+      <workItem from="1610425590492" duration="12106000" />
     </task>
     <servers />
   </component>
@@ -64,17 +96,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="174" key="#Servers/0.0.1920.1040@0.0.1920.1040" timestamp="1610420425601" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610420430407">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610434793736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610420430407" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610434793736" />
+    <state x="587" y="88" key="CommitChangelistDialog2" timestamp="1610424794358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="587" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610424794358" />
     <state x="736" y="432" width="447" height="266" key="ComposerInitDialogKey" timestamp="1610420367335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="432" width="447" height="266" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1610420367335" />
-    <state x="739" y="306" key="FileChooserDialogImpl" timestamp="1610420361996">
+    <state x="739" y="306" key="FileChooserDialogImpl" timestamp="1610425097285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="306" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610420361996" />
+    <state x="739" y="306" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610425097285" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1610432400672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610432400672" />
   </component>
 </project>

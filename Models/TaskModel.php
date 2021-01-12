@@ -8,9 +8,9 @@ use mvc\Core\Model;
 class TaskModel extends Model
 {
 
-    protected $id;
-    protected $title;
-    protected $description;
+    public $id;
+    public $title;
+    public $description;
 
     public function setId($id)
     {
