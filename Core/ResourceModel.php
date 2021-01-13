@@ -29,18 +29,15 @@ class ResourceModel implements ResourceModelInterface
     }
 
     public function save($model){
-        /* Column Insert */
         $properties = $model->getProperties();
         $columnsInsert = implode(',', array_keys($properties));
 
-        /* Value Insert */
         $placeNames = [];
         foreach ($properties as $key => $value) {
             array_push($placeNames, ':' . $key);
         }
         $valuesInsert = implode(',', $placeNames);
 
-        /*Column Update */
         $columsUpdate = [];
         foreach (array_keys($properties) as $value) {
             if ($value !== 'id') {
