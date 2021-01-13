@@ -47,6 +47,24 @@ class TasksController extends Controller
     /* hàm Sửa task với id */
     function edit($id)
     {
+        extract($_POST);
+
+        $task = new TaskModel;
+        $d["task"] = $this->taskRepository->get($id);
+
+        if (isset($title) && isset($description) && !empty($title) && !empty($description))
+        {
+            $task->id = $id;
+            $task->title = $title;
+            $task->description =$description;
+
+            if ($this->taskRepository->edit($task))
+            {
+                header("Location: " . WEBROOT . "tasks/index");
+            }
+        }
+        $this->set($d);
+        $this->render("edit");
 
     }
 

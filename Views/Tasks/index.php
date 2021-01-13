@@ -20,7 +20,7 @@
             echo "<td>" . $task->description . "</td>";
             echo "<td class='text-center'>
                     <a class='btn btn-info btn-xs' href='/mvc/tasks/edit/" . $task->id . "' ><span class='glyphicon glyphicon-edit'></span> Edit</a>
-                    <a href='/mvc/tasks/delete/" . $task->id . "' class='btn btn-danger btn-xs'><span class='glyphicon glyphicon-remove'></span> Del</a>
+                    <a href='/mvc/tasks/delete/" . $task->id . "' class='btn btn-danger btn-xs'  onclick=\"return confirm('Are you sure you want to delete this task')\"><span class='glyphicon glyphicon-remove'></span> Del</a>
                   </td>";
             echo "</tr>";
         }
