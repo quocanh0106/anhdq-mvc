@@ -2,7 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c93ac342-66cb-49f3-8d9a-59a21e512379" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Controllers/StudentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Student/StudentModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Student/StudentRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Student/StudentResourceModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Student/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Student/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Student/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MVC_todo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MVC_todo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Config/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/Config/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/TasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/TasksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/ResourceModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ResourceModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/ResourceModelInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/Core/ResourceModelInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/TaskModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TaskModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/TaskRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TaskRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/TaskResourceModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/TaskResourceModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Layouts/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Tasks/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Tasks/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Tasks/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Tasks/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Tasks/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Tasks/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webroot/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/Webroot/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webroot/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Webroot/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +82,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Views/Student" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,10 +93,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Views/Student" />
       <recent name="C:\xampp\htdocs\mvc\Models" />
       <recent name="C:\xampp\htdocs\mvc\Core" />
     </key>
@@ -58,6 +109,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,36 +127,32 @@
       <workItem from="1610422367411" duration="2711000" />
       <workItem from="1610425590492" duration="13361000" />
       <workItem from="1610500904447" duration="4680000" />
+      <workItem from="1610525186831" duration="161000" />
+      <workItem from="1610525356830" duration="1376000" />
+      <workItem from="1610527703086" duration="2229000" />
+      <workItem from="1610707439829" duration="39000" />
+      <workItem from="1611044916673" duration="1878000" />
+      <workItem from="1611051968961" duration="1044000" />
+      <workItem from="1611091274685" duration="3572000" />
+      <workItem from="1611104679249" duration="17978000" />
+      <workItem from="1611162535353" duration="14299000" />
+      <workItem from="1611191941761" duration="1530000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="540" y="174" key="#Servers" timestamp="1610420425601">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="174" key="#Servers/0.0.1920.1040@0.0.1920.1040" timestamp="1610420425601" />
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610434793736">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610434793736" />
-    <state x="587" y="88" key="CommitChangelistDialog2" timestamp="1610424794358">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="587" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610424794358" />
-    <state x="736" y="432" width="447" height="266" key="ComposerInitDialogKey" timestamp="1610420367335">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="736" y="432" width="447" height="266" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1610420367335" />
-    <state x="739" y="306" key="FileChooserDialogImpl" timestamp="1610425097285">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="306" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610425097285" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1610432400672">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610432400672" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

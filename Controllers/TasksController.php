@@ -15,6 +15,8 @@ class TasksController extends Controller
         $this->taskRepository = new TaskRepository;
     }
 
+    /* show list task */
+
     function index()
     {
         $tasks = new TaskModel;
@@ -24,6 +26,7 @@ class TasksController extends Controller
         $this->render("index");
     }
 
+    /* add new task */
 
     function create()
     {
@@ -32,8 +35,8 @@ class TasksController extends Controller
         if (isset($title) && isset($description) && !empty($title) && !empty($description))
         {
             $task = new TaskModel;
-            $task->title = $title;
-            $task->description =$description;
+            $task->setTitle($title) ;
+            $task->setDescription($description);
 
             if ($this->taskRepository->add($task))
             {
@@ -44,7 +47,7 @@ class TasksController extends Controller
         $this->render("create");
     }
 
-    /* hàm Sửa task với id */
+    /* update task */
     function edit($id)
     {
         extract($_POST);
@@ -54,9 +57,9 @@ class TasksController extends Controller
 
         if (isset($title) && isset($description) && !empty($title) && !empty($description))
         {
-            $task->id = $id;
-            $task->title = $title;
-            $task->description =$description;
+            $task->setId($id);
+            $task->setTitle($title) ;
+            $task->setDescription($description);
 
             if ($this->taskRepository->edit($task))
             {
@@ -68,12 +71,13 @@ class TasksController extends Controller
 
     }
 
+    /* delete task*/
 
     function delete($id)
     {
 
         $tasks = new TaskModel;
-        $tasks->id = $id;
+        $tasks->setId($id);
         if ($this->taskRepository->delete($tasks))
         {
             header("Location: " . WEBROOT . "tasks/index");

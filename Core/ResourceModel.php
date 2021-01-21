@@ -47,7 +47,7 @@ class ResourceModel implements ResourceModelInterface
         $columsUpdate = implode(',', $columsUpdate);
 
         /* TRUE => Create, FALSE => Edit */
-        if ($model->id === null) {
+        if ($model->getId() === null) {
             $sql = 'INSERT INTO '.$this->table.' ('.$columnsInsert.', created_at, updated_at) VALUES ('.$valuesInsert.', :created_at, :updated_at)';
             $req = Database::getBdd()->prepare($sql);
             $date = array("created_at" => date('Y-m-d H:i:s'), 'updated_at' => date('Y-m-d H:i:s'));
@@ -57,28 +57,25 @@ class ResourceModel implements ResourceModelInterface
         }else {
             $sql = 'UPDATE '.$this->table.' SET ' . $columsUpdate . ', updated_at = :updated_at WHERE id = :id';
             $req = Database::getBdd()->prepare($sql);
-            $date = array("id" => $model->id, 'updated_at' => date('Y-m-d H:i:s'));
+            $date = array("id" => $model->getId(), 'updated_at' => date('Y-m-d H:i:s'));
 
             return $req->execute(array_merge($properties, $date));
         }
     }
 
     public function getId($id){
-        $class = get_class($this->model);
         $sql = 'SELECT * FROM '.$this->table.' where id = :id';
         $req = Database::getBdd()->prepare($sql);
-        $req->setFetchMode(PDO::FETCH_INTO, new $class);
         $req->execute(['id' => $id]);
 
-        return $req->fetch();
+        return $req->fetchObject();
     }
 
     public function delete($model)
     {
-        $sql = ' DELETE FROM '.$this->table.' WHERE id = '.$model->id;
-//        $sql = "DELETE FROM {$this->table} WHERE id = :id";
+        $sql = ' DELETE FROM '.$this->table.' WHERE id = '.$model->getId();
         $req = Database::getBdd()->prepare($sql);
-        return $req->execute([':id' => $model->id]);
+        return $req->execute([':id' => $model->getId()]);
     }
 
 }
